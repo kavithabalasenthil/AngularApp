@@ -1,0 +1,10 @@
+username: 'model=user.name'
+password:     'model=user.password'
+login:        "//*[@id='login-form']/fieldset/button"
+create:       "//*[@id='bAdd']"
+firstname:    "model=selectedEmployee.firstName"
+lastname:     "model=selectedEmployee.lastName"
+startdate:    "model=selectedEmployee.startDate"
+email:        "model=selectedEmployee.email"
+add:          "//*[@class='formFooter']/child::*[2]"
+
